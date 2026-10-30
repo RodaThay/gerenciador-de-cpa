@@ -14,4 +14,4 @@ Painel financeiro pessoal desenvolvido para gestão de despesas e controle de sa
 * Interface limpa, otimizada para uso diário pessoal.
 
 ## 🌐 Acesso Online
-Aceda ao projeto em produção através do link na Vercel: [Clique aqui para abrir o painel] (adicione o seu link da Vercel aqui)
+Aceda ao projeto em produção através do link na Vercel: (https://meu-painel-goat-site.vercel.app/)
