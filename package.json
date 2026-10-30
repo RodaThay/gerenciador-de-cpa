@@ -1,0 +1,37 @@
+{
+  "name": "meu-painel-goat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron:dev": "cross-env NODE_ENV=development concurrently \"npm run dev\" \"wait-on http://localhost:5173 && electron .\"",
+    "electron:build": "npm run build && electron-builder -c.extraMetadata.main=main.cjs"
+  },
+  "dependencies": {
+    "firebase": "^13.1.0",
+    "lucide-react": "^1.65.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.2",
+    "electron": "^45.2.0",
+    "electron-builder": "^26.18.0",
+    "eslint": "^10.13.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.5"
+  }
+}
